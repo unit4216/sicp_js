@@ -14,3 +14,9 @@
   An algorithm which starts a car, for instance, has to use the best solution because there is a binary state of either the car is started or it's not,
   and if the car isn't started the algorithm is useless.  On the other hand, an algorithm for catching fish doesn't have to be perfect because
   catching 98/100 fish is still a lot of fish and a good haul.
+1.2-1
+  Google Maps, algorithms for shortest distance, algorithms to parse user input, algorithms for rendering etc.
+1.3-1
+  Roughly n<43.
+1.4-1
+  N=15
