@@ -23,4 +23,10 @@
         return Math.pow(numbers[1],2) + Math.pow(numbers[2],2);
     }
 1.4
-    
+   If b>=0, the function will return a+b, if not it will return a-b.
+1.5
+    An applicative order interpreter will evaluate p() (which returns p()) and will cause an infinite loop as this is being
+    evaluated before the test() function.  A normal order interpreter will return 0, because p() wouldn't be evaluated until the end.
+1.6
+    Since JS is applicative, both the then- and else- statements will be evaluated regardless of what the predicate evaluates to.  
+    Since the else- statement calls the function which it is in recursively (sqrt_iter), this will cause an infinite loop.
